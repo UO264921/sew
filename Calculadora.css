@@ -1,0 +1,67 @@
+body {
+    background-color: #A9B8B1;
+	margin-left: 20%;
+}
+
+h1 {
+    width: 40%;
+    color: #000000;
+	margin-left: 10%;
+}
+
+.niveles {
+    display: grid;
+    grid-template-columns: 6% 90%;
+	background-color: #BBB;
+    margin: 1em;
+    padding: 0.5em;
+	border: solid #494949 5px;
+    text-align: right;
+    font-size: 1em;
+}
+
+.niveles p {
+    margin: 0.5em;
+}
+
+.calculadora {
+	background-color: #272727;
+    border-radius: 1em;
+    font-size: 1.2em;
+    padding: 0.5em;
+    width: 50%;
+}
+
+.calculadora ul {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.calculadora li {
+    border-radius: 0.5em;
+    text-align: center;
+    margin: 5%;
+    padding: 10% 0;
+}
+
+.numero {
+    background-color: #C9CACB;
+}
+
+.operacion {
+    background-color: #375773;
+	color: #FFFFFF;
+}
+
+.operacionAvanzada {
+    background-color: #494949;
+	color: #FFFFFF
+}
+
+.enter {
+    background-color: #522929;
+	color: #FFFFFF
+}
