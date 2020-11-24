@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Calculadora Cientifica</title>
+        <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+    </head>
+    <body>
+        <h1>Calculadora Cientifica</h1>
+        <div class="calculadora">
+            <p>0</p>
+            <ul>
+				<li class="m" onclick="calculadora.añadirMemoria()">M+</li>
+                <li class="m" onclick="calculadora.quitarMemoria()">M-</li>
+                <li class="m" onclick="calculadora.borrarMemoria()">MC</li>
+                <li class="m" onclick="calculadora.llamarMemoria()">MR</li>
+                <li class="m" onclick="calculadora.guardarMemoria()">MS</li>
+
+                <li class="operacionAvanzada" onclick="calculadora.añadirOperacionAvanzadaDerecha('pow', 2)">x^2</li>
+				<li class="operacionAvanzada" onclick="calculadora.añadirOperacionAvanzadaDerecha('pow', 3)">x^3</li>
+                <li class="operacionAvanzada" onclick="calculadora.añadirOperacionAvanzadaAbierta('pow')">x^y</li>
+				<li class="operacionAvanzada" onclick="calculadora.añadirOperacionAvanzadaIzquierda('pow', 10)">10^x</li>
+				<li class="operacionAvanzada" onclick="calculadora.añadirOperacion('%')">Mod</li>
+				
+                <li class="operacionAvanzada" onclick="calculadora.añadirOperacionAvanzada('sin')">sin</li>
+                <li class="operacionAvanzada" onclick="calculadora.añadirOperacionAvanzada('cos')">cos</li>
+                <li class="operacionAvanzada" onclick="calculadora.añadirOperacionAvanzada('tan')">tan</li>
+                <li class="operacionAvanzada" onclick="calculadora.añadirOperacionAvanzada('log')">log</li>
+                <li class="operacionAvanzada" onclick="calculadora.añadirOperacionAvanzada('exp')">Exp</li>
+                
+                <li class="operacionAvanzada" onclick="calculadora.añadirOperacionAvanzada('sqrt')">sqrt</li>
+                <li class="operacion" onclick="calculadora.clearAll()">CE</li>
+                <li class="operacion" onclick="calculadora.removeAll()">C</li>
+                <li class="operacion" onclick="calculadora.borrarUltimo()">&#9003;</li>
+                <li class="operacion" onclick="calculadora.añadirOperacion('/')">/</li>
+
+                <li class="operacionAvanzada" onclick="calculadora.añadirNumero('PI')">&pi;</li>
+                <li class="numero" onclick="calculadora.añadirNumero('7')">7</li>
+                <li class="numero" onclick="calculadora.añadirNumero('8')">8</li>
+                <li class="numero" onclick="calculadora.añadirNumero('9')">9</li>
+                <li class="operacion" onclick="calculadora.añadirOperacion('*')">*</li>
+
+				<li class="operacionAvanzada" onclick="calculadora.masMenos()" >&#177;</li>
+                <li class="numero" onclick="calculadora.añadirNumero('4')">4</li>
+                <li class="numero" onclick="calculadora.añadirNumero('5')">5</li>
+                <li class="numero" onclick="calculadora.añadirNumero('6')">6</li>
+                <li class="operacion" onclick="calculadora.añadirOperacion('-')">-</li>
+                
+                <li class="operacionAvanzada" onclick="calculadora.añadirOperacionAvanzada('fact')">n!</li>
+                <li class="numero" onclick="calculadora.añadirNumero('1')">1</li>
+                <li class="numero" onclick="calculadora.añadirNumero('2')">2</li>
+                <li class="numero" onclick="calculadora.añadirNumero('3')">3</li>
+                <li class="operacion" onclick="calculadora.añadirOperacion('+')">+</li>
+                
+                <li class="operacion" onclick="calculadora.añadirNumero('(')">(</li>
+                <li class="operacion" onclick="calculadora.añadirNumero(')')">)</li>
+                <li class="numero" onclick="calculadora.añadirNumero('0')">0</li>
+                <li class="numero" onclick="calculadora.añadirNumero('.')">.</li>
+                <li class="operacion" onclick="calculadora.realizarOperacion()">=</li>
+            </ul>
+            <span></span>
+        </div>
+        <script src="CalculadoraCientifica.js"></script>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Victorias del Villarreal C.F en liga</title>
+		<script src="Ejercicio7.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Victorias del Villarreal C.F en liga</h1>
+        </header>
+		<section id="recorrer"> 
+			<h2>
+				<a href="#" onclick="texto.inspeccionar()">Recorrer web</a> 
+			</h2>
+		</section>
+		<section id="Tabla">
+			<h2><span onclick="texto.mostrarTabla()">&#x25E2;</span>Tabla de datos</h2>
+			<p>El villarreal CF ha iniciado el año de la mejor forma posible con tan solo una derrota.</p>
+			<table id="partidos">
+				<tr>
+					<th>Partidos</th>
+					<th>GF</th>
+					<th>GC</th>
+					<th>Goleador</th>
+				</tr>
+				<tr>
+					<td>Huesca</td>
+					<td>1</td>
+					<td>1</td>
+					<td>Gerard Moreno</td>
+				</tr>
+				<tr>
+					<td>Eibar</td>
+					<td>2</td>
+					<td>1</td>
+					<td>Paco Alcácer</td>
+				</tr>
+				<tr>
+					<td>FC Barcelona</td>
+					<td>0</td>
+					<td>4</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Alavés</td>
+					<td>1</td>
+					<td>3</td>
+					<td>Gerard Moreno</td>
+				</tr>
+				<tr>
+					<td>At Madrid</td>
+					<td>0</td>
+					<td>0</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Valencia</td>
+					<td>2</td>
+					<td>1</td>
+					<td>Dani Parejo</td>
+				</tr>
+				<tr>
+					<td>Cadiz</td>
+					<td>0</td>
+					<td>0</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Valladolid</td>
+					<td>2</td>
+					<td>0</td>
+					<td>Pau Torres</td>
+				</tr>
+				<tr>
+					<td>Getafe</td>
+					<td>3</td>
+					<td>1</td>
+					<td>Manu Trigueros</td>
+				</tr>
+			</table>
+			<a href="#total" onclick="texto.verTotalGoles()">Calcular total de goles a favor</a>
+		</section>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    background-color: #FFFFFF;
+}
+
+h1 {
+	margin-left: 18%;
+    color: #000000;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	font-size: 50px;
+}
+
+button {
+	margin-left: 550px;
+	color: #000000;
+	background-color: #FFFFFF;
+	width: 200px;
+} 
+
+input{
+	margin-left: 23%;
+	margin-bottom: 40px;
+	padding-bottom: 100px;
+	border: solid black 2px;
+}

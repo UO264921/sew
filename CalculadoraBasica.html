@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+        <div class="calculadora">
+            <p>0</p>
+            <ul>
+				<li class="m" onclick="calculadora.añadirMemoria()">M+</li>
+				<li class="m" onclick="calculadora.quitarMemoria()">M-</li>
+                <li class="m" onclick="calculadora.llamarMemoria()">MRC</li>
+                <li class="operacion" onclick="calculadora.añadirOperacion('+')">+</li>
+				
+                <li class="numero" onclick="calculadora.añadirNumero('7')">7</li>
+                <li class="numero" onclick="calculadora.añadirNumero('8')">8</li>
+                <li class="numero" onclick="calculadora.añadirNumero('9')">9</li>
+                <li class="operacion" onclick="calculadora.añadirOperacion('-')">-</li>
+				
+                <li class="numero" onclick="calculadora.añadirNumero('4')">4</li>
+                <li class="numero" onclick="calculadora.añadirNumero('5')">5</li>
+                <li class="numero" onclick="calculadora.añadirNumero('6')">6</li>
+                <li class="operacion" onclick="calculadora.añadirOperacion('*')">x</li>
+				
+                <li class="numero" onclick="calculadora.añadirNumero('1')">1</li>
+                <li class="numero" onclick="calculadora.añadirNumero('2')">2</li>
+                <li class="numero" onclick="calculadora.añadirNumero('3')">3</li>
+                <li class="operacion" onclick="calculadora.añadirOperacion('/')">/</li>
+				
+				<li class="operacion" onclick="calculadora.removeAll()">C</li>
+                <li class="numero" onclick="calculadora.añadirNumero('0')">0</li>
+                <li class="numero" onclick="calculadora.añadirNumero('.')">.</li>
+               
+                <li class="operacion" onclick="calculadora.realizarOperacion()">=</li>
+				
+            </ul>
+        </div>
+        <script src="CalculadoraBasica.js"></script>
+    </body>
+</html>

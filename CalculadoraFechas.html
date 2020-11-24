@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Calculadora de fechas</title>
+        <link rel="stylesheet" type="text/css" href="CalculadoraFechas.css" />
+		<script src="CalculadoraFechas.js"></script>
+    </head>
+    <body>
+		<div>
+        <h1>Calculadora de fechas</h1>
+		<h2>Introduce las fechas en formato (aaaa-MM-dd)</h2>
+		<div>
+		<textArea class = "inicial1" id= "inicial1" rows= 1></textArea> 
+		<button class = "hoy" onclick="hoy()">Hoy</button>
+		</div>
+		<div><textArea class = "inicial2" id= "inicial2" rows= 1></textArea>
+		<button class = "hoy" onclick="hoy2()">Hoy</button>
+		</div>
+		<p><button class = "sumar" onclick="sumarFechas()">Sumar dias</button></p>
+		<p><button class = "restar" onclick="restarFechas()">Restar dias</button></p>
+		<textArea class = "tarea" readonly id = "final" rows= '1'> </textArea>
+		</div>
+    </body>
+</html>

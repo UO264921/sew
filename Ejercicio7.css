@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+    color: #333;
+}
+header {
+    text-align: center;
+    background-color: #333;
+    padding: 2em;
+	color: white;
+}
+
+section {
+    margin-left: 25vw;
+    margin-top: 2em;
+}
+
+span {
+    font-size: 1em;
+    margin-right: 0.5em;
+}
+
+table { 
+    width: 60%; 
+    border-spacing: 1px;
+}
+
+th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+}
+
+td, th { 
+    padding: 0.5em; 
+    border: 1px solid #ccc; 
+}
+
+#Tabla a {
+    width: 20%;
+    display: block;
+	text-decoration: none;
+    text-align: center;
+    padding: 1em 1em;
+    color: #eee;
+    background-color: #333;
+	margin-top: 10px;
+}
+
+#recorrer a {
+    width: 15%;
+    display: block;
+	text-decoration: none;
+    text-align: center;
+    padding: 1em 1em;
+    color: #eee;
+    background-color: #444;
+	margin-top: 10px;
+}

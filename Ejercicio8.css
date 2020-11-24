@@ -1,0 +1,33 @@
+body {
+	background-color: white;
+	color: black;
+	font-size: 1em;
+}
+
+body > h1 {
+	font-size: 3em;
+	color:black;
+	padding-left: 4em;
+}
+
+main {
+	width: 60vw;
+	display: flex;
+	flex-direction: row;
+}
+
+main > * {
+	padding-left: 4em;
+	padding-right: 4em;
+	font-size: 1.2em;
+}
+
+main img {
+	width: 5vw;
+	margin: 0 auto;
+}
+
+dt {
+	margin-top: 1em;
+	font-weight: bold;
+}
