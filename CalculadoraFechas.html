@@ -10,19 +10,27 @@
 		<div>
         <h1>Calculadora de fechas</h1>
 		<h2>Introduce las fechas en formato (aaaa-MM-dd)</h2>
+		
 		<div>
 		<label for="inicial1">Fecha inicial:</label>
 		<textArea class = "inicial1" id= "inicial1" rows= 1></textArea> 
 		<button class = "hoy" onclick="hoy()">Hoy</button>
 		</div>
+		
+		<div>
 		<label for="inicial2">Fecha siguiente:</label>
-		<div><textArea class = "inicial2" id= "inicial2" rows= 1></textArea>
+		<textArea class = "inicial2" id= "inicial2" rows= 1></textArea>
 		<button class = "hoy" onclick="hoy2()">Hoy</button>
 		</div>
+		
 		<p><button class = "sumar" onclick="sumarFechas()">Sumar dias</button></p>
 		<p><button class = "restar" onclick="restarFechas()">Restar dias</button></p>
+		
+		<div>
 		<label for="final">Solucion:</label>
 		<textArea class = "tarea" readonly id = "final" rows= '1'> </textArea>
+		</div>
+		
 		</div>
     </body>
 </html>

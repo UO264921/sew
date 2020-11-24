@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-	margin-left: 600px;
+	margin-left: 35%;
 	width: 30%;
 	border-radius: 20px;
     color: #000000;
@@ -34,4 +34,12 @@ textarea{
 
 label{
 	font-size: 20px;
+}
+
+button{
+	font-size: 20px;
+}
+
+div, button{
+	padding: 1%;
 }
