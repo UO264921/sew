@@ -1,0 +1,31 @@
+footer img {
+    width: auto;
+    height: 2em;
+}
+body{
+    background-color:white;
+    color:black;
+	text-align: center;
+}
+h1{
+    text-align:center;
+    background-color: #303940;
+    color: #FFF;
+    padding: 0.4em;
+    border-radius: 3em;
+}
+h2{
+    text-align:center;
+    color:#303940;
+}
+h3{
+    text-align:center;
+    color:#5C6A75;
+}
+h4{
+    text-align:center;
+    font-weight: bolder;
+}
+p{
+    color:#6A6C6D;
+}
