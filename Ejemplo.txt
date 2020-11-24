@@ -1,0 +1,4 @@
+Los archivos JSON son simples archivos de texto con extensión json. Por ejemplo un nombre de archivo podría ser estudiantes.json ó colores.json. 
+Un archivo json se puede crear con cualquier editor de texto plano. Hay que tener cuidado de usar siempre texto plano. 
+Ten en cuenta que procesadores de texto avanzados como Microsoft Word no trabajan con texto plano y por 
+tanto no serán útiles para trabajar con archivos json.
