@@ -15,7 +15,7 @@ h1 {
 }
 
 h2{
-	font-size: 20px;
+	font-size: 30px;
 }
 
 textarea{
@@ -23,11 +23,15 @@ textarea{
 }
 
 .inicial1, .inicial2{
-	margin-left: 50px;
+	margin-left: 10px;
 }
 
 .hoy{
 	margin-left: 10px;
 	margin-bottom: 10px;
 	margin-top: 5px;
+}
+
+label{
+	font-size: 20px;
 }
