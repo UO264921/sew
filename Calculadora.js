@@ -32,8 +32,7 @@ class Calculadora {
 			return 0;
 		else return parseFloat(this.pila.pop());
     }
-	
-	// Teclas ------------------------------------------------------------>
+
 
     numero(numero) {
 		if (typeof(numero) !== 'string')
